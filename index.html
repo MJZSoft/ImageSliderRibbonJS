@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Slider Ribbon JS</title>
+<script src="ImageSliderRibbon-min.js"></script>
+
+<script type="text/javascript">
+function InitScripts(){
+    ImageSliderRibbonJS('ImageSliderWraper','SliderIcon');
+}
+</script>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #000000;
+        color:#FFFFFF;
+    }
+    h3{
+        color:#00FF00;
+    }
+    h4{
+        font-family:"Courier New", Courier, monospace;
+        color:#33CCFF;
+    }
+    #Wraper {
+        width: 100%;
+        background-color: #040404;
+        overflow: hidden;
+    }
+    #ImageSliderWraper {
+        position: relative;
+        width: 40%;
+        height: 160px;
+        background: #090909;
+        overflow: hidden;
+        margin:auto;
+    }
+    #ImageSliderWraper img.SliderIcon {
+        height: 50%;
+        top: 25%;
+        visibility: hidden;
+        position: absolute;
+        z-index: 99;
+        padding: 0 3px;
+    }
+</style>
+</head>
+<body onload="InitScripts()">
+<div style="margin:auto; text-align: center">
+    <h1>Image Slider Ribbon JS</h1>
+    <h6>Powered by MJZSoft</h6>
+</div>
+<div id='Wraper'>
+    <div id="ImageSliderWraper">
+            <img class="SliderIcon"  src="img/img1.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img2.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img3.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img4.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img5.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img6.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img7.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img8.jpg" title='Some Title'/>
+            <img class="SliderIcon"  src="img/img9.jpg" title='Some Title'/>
+    </div>
+</div>
+
+</body>
+
+</html>

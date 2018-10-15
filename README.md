@@ -11,7 +11,7 @@ http://www.bishopimage.com/artList/index.html
 
 They had a very beautiful image slider inside of their website as a banner. Currently, they changed the website design and if you go to the above address mostly you cannot visit the image slider that I saw. Thus, I made a video from their website which you can find it at the following address:
 
-https://www.youtube.com/watch?v=PGKWDjqQl1M
+https://www.youtube.com/watch?v=e-oZ4-zyY5A
 
 This was a pretty good encouragement for me to create a pure JavaScript library that does the same work. ImageSliderRibbonJS is a pure lightweight JavaScript library that helps you to create beautiful banners for your website.
 
